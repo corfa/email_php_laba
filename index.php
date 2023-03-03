@@ -10,7 +10,7 @@
 <center>
 <h1><a href="http://test/www/temp/aut_form.php">залогинится</a></h1>
 <br>
-<h1><a href="http://test/www/temp/create_form.php">зарегестрироватся</a></h1> 
+<h1><a href="http://test/www/temp/create_form.php">зарегистрироваться</a></h1> 
 <img src="cot.jpg">
 </center>
 </body>
