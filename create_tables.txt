@@ -1,0 +1,21 @@
+CREATE TABLE users (
+ id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(20) UNIQUE,
+    password VARCHAR(20)
+);
+
+CREATE TABLE email_messages (
+ Id INT PRIMARY KEY AUTO_INCREMENT,
+	id_sender INT,
+    id_recipient INT,
+	text_message TEXT,
+	title_message TEXT,
+    FOREIGN KEY (id_sender)  REFERENCES users (id),
+	FOREIGN KEY (id_recipien)  REFERENCES users (id)
+);
+
+CREATE TABLE admins; (
+ Id INT PRIMARY KEY AUTO_INCREMENT,
+    login VARCHAR(20) UNIQUE,
+    password VARCHAR(20)
+);
