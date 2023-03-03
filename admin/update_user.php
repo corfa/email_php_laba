@@ -34,7 +34,7 @@ if (isset($_POST["update_data"])){
 echo "<form method='POST'>
 <p>Логин Пользователя: <input type='text' name='update_login' value=$login_user /></p>
 <p>Пароль Пользователя: <input type='text' name='update_password' value=$password_user /></p>
-<input type='submit' value='Войти' name='update_data'>
+<input type='submit' value='изменить' name='update_data'>
 </form>"
 
 ?>
